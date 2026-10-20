@@ -1,0 +1,690 @@
+.long-chart {
+  height: 340px;
+  padding: 0 13px 8px;
+}
+.week-plan-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin-top: 12px;
+}
+.week-plan-chips span {
+  font-size: 9px;
+  color: #a79b88;
+  background: #faf6ed;
+  border: 1px solid #efe7d9;
+  border-radius: 4px;
+  padding: 5px 7px;
+  line-height: 1.7;
+}
+.week-plan-chips span.done {
+  color: #859b71;
+  background: #f1f7ea;
+  border-color: #e1ebd5;
+}
+.recent-weights > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.recent-weights button {
+  background: none;
+  border: 0;
+  color: #b8b19c;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+}
+.insight-select {
+  padding: 7px 10px;
+  background: #fff;
+  border: 1px solid #e1e7d9;
+  border-radius: 5px;
+  color: #89977b;
+  font-size: 11px;
+  max-width: 210px;
+}
+.insight-caption {
+  font-size: 10px;
+  line-height: 1.9;
+  color: #98a58b;
+  padding: 0 22px 19px;
+}
+.insight-caption > span {
+  display: block;
+  color: #ac916e;
+  margin-bottom: 8px;
+}
+.compare-tip p {
+  font-size: 10px;
+  line-height: 1.6;
+  color: #9c87af;
+  margin-top: 8px;
+  max-width: 250px;
+  white-space: normal;
+}
+.compare-tip {
+  min-width: 230px;
+}
+.insight-forms {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 20px;
+}
+.insight-forms h2 {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.insight-form {
+  padding: 0 22px 22px;
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.insight-form label,
+.plan-fields label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 10px;
+  color: #98a78b;
+}
+.insight-form input,
+.insight-form select,
+.plan-fields input,
+.plan-fields select,
+.plan-template-list input,
+.plan-template-list select,
+.plan-week-nav input {
+  border: 1px solid #e0e7d6;
+  border-radius: 5px;
+  padding: 8px 10px;
+  font-size: 11px;
+  background: #fff;
+  color: #6f815f;
+  min-width: 0;
+}
+.insight-form input[type="number"] {
+  width: 112px;
+}
+.insight-form input[type="date"] {
+  width: 135px;
+}
+.insight-form input[type="time"] {
+  width: 100px;
+}
+.insight-form .event-text {
+  flex: 1;
+  min-width: 240px;
+}
+.recent-weights {
+  padding: 0 22px 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  font-size: 9px;
+  color: #acb39e;
+}
+.recent-weights b {
+  font-weight: 500;
+  color: #a38c66;
+  margin-left: 5px;
+}
+.polarization-list {
+  padding: 0 22px;
+}
+.polarization-row {
+  display: grid;
+  grid-template-columns: 130px 1fr 150px 95px;
+  gap: 20px;
+  align-items: center;
+  border-top: 1px solid #eff2e8;
+  padding: 16px 0;
+}
+.polarization-row strong {
+  font-size: 11px;
+  font-weight: 500;
+  color: #7f906e;
+}
+.polarization-row small {
+  display: block;
+  font-size: 9px;
+  color: #a8b299;
+  margin-top: 6px;
+}
+.polarization-track {
+  position: relative;
+  background: #b59bce;
+  height: 15px;
+  overflow: visible;
+  border-radius: 3px;
+}
+.polarization-fill {
+  height: 100%;
+  background: #9cbb8e;
+  border-radius: 3px 0 0 3px;
+}
+.polarization-track > span {
+  position: absolute;
+  top: -5px;
+  bottom: -5px;
+  border-left: 2px dashed #697d5a;
+}
+.polarization-numbers {
+  font-size: 11px;
+  color: #a29bb0;
+}
+.polarization-numbers b {
+  font-weight: 500;
+  color: #85946f;
+}
+.zone-middle {
+  font-size: 10px;
+  color: #b19d78;
+}
+.context-weeks {
+  padding: 0 22px 10px;
+}
+.context-weeks article {
+  border-top: 1px solid #edf1e6;
+  padding: 17px 0;
+}
+.context-weeks article > div:first-child {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 10px;
+  color: #a2ae93;
+}
+.context-weeks strong {
+  font-size: 11px;
+  font-weight: 500;
+  color: #7e906b;
+}
+.context-empty {
+  margin-top: 10px;
+  font-size: 10px;
+  color: #b3bca6;
+}
+.context-event {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  padding: 12px 0 0;
+  font-size: 11px;
+  color: #8a9b78;
+}
+.event-tag {
+  font-size: 9px;
+  background: #f0edf5;
+  padding: 4px 6px;
+  border-radius: 3px;
+  color: #a18daf;
+  white-space: nowrap;
+}
+.context-event small {
+  font-size: 9px;
+  white-space: nowrap;
+}
+.context-event p {
+  line-height: 1.8;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+.context-event button {
+  margin-left: auto;
+  color: #bdacaa;
+  background: none;
+  border: 0;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+}
+.signal-selected {
+  padding: 0 22px 20px;
+  font-size: 11px;
+  color: #9fab92;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.signal-selected strong {
+  font-weight: 500;
+  color: #a28d68;
+}
+.signal-grid {
+  padding: 0 22px 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}
+.signal-grid article {
+  background: #fafbf7;
+  border: 1px solid #eaf0e1;
+  border-radius: 7px;
+  padding: 15px 13px;
+}
+.signal-grid h3 {
+  font-size: 10px;
+  font-weight: 500;
+}
+.signal-grid article > strong {
+  display: block;
+  font-size: 24px;
+  font-weight: 400;
+  color: #677d58;
+  margin: 12px 0 7px;
+}
+.signal-grid small {
+  font-size: 8px;
+}
+.signal-grid p {
+  font-size: 9px;
+  color: #a9b29d;
+  line-height: 1.8;
+}
+.signal-chart {
+  height: 95px;
+  margin-top: 9px;
+}
+.plan-week-nav {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.plan-week-nav button {
+  border: 0;
+  background: none;
+  color: #9baa8e;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+.plan-week-nav input {
+  font-size: 10px;
+  width: 130px;
+}
+.plan-summary {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 0 22px 22px;
+  color: #9eac8e;
+}
+.plan-summary strong {
+  font-size: 38px;
+  font-weight: 400;
+  color: #7f9e6c;
+}
+.plan-summary small {
+  font-size: 11px;
+  font-weight: 400;
+  margin-left: 8px;
+}
+.plan-summary > span {
+  font-size: 10px;
+  line-height: 1.9;
+}
+.plan-cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  padding: 0 22px 22px;
+}
+.plan-card {
+  border: 1px solid #e5ebdc;
+  border-radius: 8px;
+  padding: 18px;
+}
+.plan-card.complete {
+  background: #f5f9ee;
+}
+.plan-card.skipped {
+  background: #faf7f1;
+}
+.plan-card-title {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  flex-wrap: wrap;
+}
+.plan-card-title > span:first-child {
+  font-size: 9px;
+  color: #b1bba2;
+}
+.plan-card-title h3 {
+  font-size: 13px;
+  color: #7f946a;
+}
+.plan-state {
+  margin-left: auto;
+  font-size: 9px;
+  color: #a79ab4;
+}
+.plan-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 19px 0 15px;
+}
+.plan-fields label {
+  min-width: 0;
+}
+.plan-fields select {
+  max-width: 100%;
+  text-overflow: ellipsis;
+}
+.plan-note {
+  grid-column: 1/-1;
+}
+.plan-message {
+  font-size: 11px;
+  color: #829b6a;
+  margin: 0 0 20px;
+}
+.plan-template-list {
+  padding: 0 22px 8px;
+}
+.plan-template-list form {
+  display: grid;
+  grid-template-columns: 40px minmax(100px, 1fr) 100px 130px 100px;
+  gap: 12px;
+  align-items: center;
+  padding: 15px 0;
+  border-top: 1px solid #f0f3e9;
+}
+.plan-template-list form > span {
+  font-size: 10px;
+  color: #a6b198;
+}
+.sidebar {
+  overflow-y: auto;
+}
+.timeline-context {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  border-left: 2px solid #a28cdd;
+  z-index: 2;
+}
+.day-context-events {
+  margin-top: 12px;
+  display: grid;
+  gap: 8px;
+}
+.day-context-events > div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 9px;
+  color: #9d89b4;
+}
+.day-context-events small {
+  font-size: 9px;
+}
+.day-context-events p {
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+  flex: 1;
+}
+@media (max-width: 1150px) {
+  .insight-forms {
+    grid-template-columns: 1fr;
+  }
+  .signal-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .polarization-row {
+    grid-template-columns: 105px 1fr 130px 70px;
+    gap: 12px;
+  }
+  .plan-cards {
+    gap: 12px;
+  }
+  .plan-fields {
+    grid-template-columns: 1fr;
+  }
+  .plan-template-list form {
+    grid-template-columns: 35px 1fr 100px;
+    gap: 10px;
+  }
+  .plan-template-list form select:last-of-type {
+    grid-column: 2;
+  }
+  .plan-template-list form .button {
+    grid-column: 3;
+  }
+}
+@media (max-width: 700px) {
+  .plan-cards {
+    grid-template-columns: 1fr;
+  }
+  .polarization-row {
+    grid-template-columns: 90px 1fr;
+    gap: 12px;
+  }
+  .polarization-numbers {
+    grid-column: 2;
+    grid-row: auto;
+  }
+  .zone-middle {
+    grid-column: 1;
+    font-size: 9px;
+  }
+  .polarization-track {
+    height: 12px;
+  }
+  .long-chart {
+    height: 290px;
+  }
+  .context-weeks article > div:first-child {
+    flex-direction: column;
+    gap: 6px;
+  }
+  .context-event {
+    flex-wrap: wrap;
+  }
+  .context-event p {
+    flex-basis: 70%;
+    font-size: 10px;
+  }
+  .signal-grid {
+    gap: 10px;
+  }
+  .signal-grid article {
+    padding: 12px;
+  }
+  .signal-grid p {
+    font-size: 8px;
+  }
+  .plan-week-nav input {
+    width: 112px;
+  }
+  .plan-summary {
+    gap: 18px;
+  }
+  .plan-summary strong {
+    font-size: 31px;
+  }
+}
+@media (max-width: 580px) {
+  .insight-caption {
+    padding: 0 15px 17px;
+    font-size: 9px;
+  }
+  .insight-select {
+    font-size: 9px;
+    padding: 6px;
+    max-width: 150px;
+  }
+  .insight-forms {
+    gap: 0;
+  }
+  .insight-form {
+    padding: 0 15px 20px;
+    gap: 9px;
+  }
+  .insight-form label {
+    font-size: 9px;
+  }
+  .insight-form input,
+  .insight-form select {
+    font-size: 10px;
+    padding: 7px;
+  }
+  .insight-form input[type="date"] {
+    width: 125px;
+  }
+  .insight-form .event-text {
+    min-width: 100%;
+    flex: 1;
+  }
+  .insight-form input[type="number"] {
+    width: 100px;
+  }
+  .long-chart {
+    height: 265px;
+    padding-left: 3px;
+    padding-right: 3px;
+  }
+  .compare-tip {
+    min-width: 195px;
+    font-size: 9px;
+  }
+  .polarization-list {
+    padding: 0 15px;
+  }
+  .polarization-row strong {
+    font-size: 10px;
+  }
+  .polarization-row small {
+    font-size: 8px;
+  }
+  .polarization-numbers {
+    font-size: 10px;
+  }
+  .signal-selected {
+    font-size: 10px;
+    padding: 0 15px 15px;
+    gap: 9px;
+  }
+  .signal-grid {
+    padding: 0 15px 15px;
+    gap: 8px;
+  }
+  .signal-grid article {
+    padding: 11px 9px;
+  }
+  .signal-grid article > strong {
+    font-size: 21px;
+  }
+  .signal-chart {
+    height: 75px;
+  }
+  .context-weeks {
+    padding: 0 15px;
+  }
+  .context-weeks strong {
+    font-size: 10px;
+  }
+  .context-weeks article > div:first-child {
+    font-size: 9px;
+  }
+  .context-event {
+    gap: 7px;
+  }
+  .context-event p {
+    font-size: 9px;
+  }
+  .event-tag {
+    font-size: 8px;
+  }
+  .plan-cards {
+    padding: 0 15px 15px;
+  }
+  .plan-card {
+    padding: 14px;
+  }
+  .plan-card-title h3 {
+    font-size: 12px;
+  }
+  .plan-card-title {
+    gap: 6px;
+  }
+  .plan-state {
+    font-size: 8px;
+  }
+  .plan-fields label {
+    font-size: 9px;
+  }
+  .plan-fields input,
+  .plan-fields select {
+    font-size: 10px;
+  }
+  .plan-week-nav {
+    gap: 1px;
+  }
+  .plan-week-nav input {
+    width: 105px;
+    font-size: 9px;
+    padding: 7px 5px;
+  }
+  .plan-summary {
+    padding: 0 15px 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  .plan-template-list {
+    padding: 0 15px 10px;
+  }
+  .plan-template-list form {
+    grid-template-columns: 30px minmax(70px, 1fr) 82px;
+    gap: 7px;
+  }
+  .plan-template-list input,
+  .plan-template-list select {
+    padding: 7px;
+    font-size: 9px;
+  }
+  .plan-template-list form .button {
+    font-size: 9px;
+    padding: 7px;
+  }
+  .plan-template-list form > span {
+    font-size: 8px;
+  }
+  .recent-weights {
+    padding-left: 15px;
+    font-size: 8px;
+  }
+}
+@media print {
+  .insight-forms,
+  .plan-week-nav,
+  .plan-template-list,
+  .plan-cards .button,
+  .context-event button {
+    display: none;
+  }
+  .long-chart {
+    height: 260px;
+  }
+  .polarization-track,
+  .polarization-fill {
+    print-color-adjust: exact;
+  }
+  .signal-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .plan-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+  .context-weeks article {
+    break-inside: avoid;
+  }
+}
