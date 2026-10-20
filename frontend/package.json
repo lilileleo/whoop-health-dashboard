@@ -2,6 +2,7 @@
   "name": "whoop-local-health",
   "private": true,
   "version": "1.0.0",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "format": "prettier --write src index.html vite.config.ts tsconfig.json",

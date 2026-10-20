@@ -244,7 +244,7 @@ export default function TrainingPlan({
           <div className="panel-head">
             <div>
               <h2>每周训练模板</h2>
-              <p>仅预填周一深蹲与周五4×4；另外两练请按你的真实计划补充</p>
+              <p>请按你的真实计划设置每一练的名称、星期与活动类型</p>
             </div>
           </div>
           <div className="plan-template-list">

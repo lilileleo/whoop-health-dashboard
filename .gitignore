@@ -2,6 +2,9 @@
 *
 !/.gitignore
 !/README.md
+!/LICENSE
+!/SECURITY.md
+!/CONTRIBUTING.md
 !/requirements.txt
 !/whoop.py
 !/weekly.py
@@ -23,6 +26,7 @@
 !/frontend/src/*.css
 !/docs/
 /docs/*
+!/docs/PUBLIC_RELEASE.md
 !/docs/images/
 /docs/images/*
 !/docs/images/*.jpg
