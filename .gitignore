@@ -21,3 +21,8 @@
 !/frontend/src/*.ts
 !/frontend/src/*.tsx
 !/frontend/src/*.css
+!/docs/
+/docs/*
+!/docs/images/
+/docs/images/*
+!/docs/images/*.jpg
